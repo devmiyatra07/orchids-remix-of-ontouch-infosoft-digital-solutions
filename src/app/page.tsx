@@ -31,34 +31,34 @@ export default function Home() {
         {/* Why Choose Us Section */}
         <section className="bg-zinc-50 py-24 px-6">
           <div className="container mx-auto max-w-6xl text-center">
-            <h2 className="mb-16 text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl">Why Choose WebCraf Solutions</h2>
-            <div className="grid gap-8 md:grid-cols-4 text-left">
-              {[
-                { icon: Layout, title: "Simple & Professional Designs", desc: "We focus on clean aesthetics that make your business stand out professionally." },
-                { icon: TrendingUp, title: "Focused on Business Growth", desc: "Our solutions are built to help you attract more customers and grow your brand." },
-                { icon: MessageCircle, title: "Clear Communication", desc: "We believe in honest and direct communication at every step of the project." },
-                { icon: ShieldCheck, title: "Reliable Support", desc: "You can count on us for long-term support and maintenance of your digital assets." },
-              ].map((item, i) => (
-                <div key={i} className="rounded-xl border border-zinc-200 bg-white p-6 transition-colors hover:border-[#0A4D8C]/30">
-                  <item.icon className="mb-4 h-8 w-8 text-[#0A4D8C]" />
-                  <h3 className="mb-2 font-semibold text-zinc-900">{item.title}</h3>
-                  <p className="text-sm text-zinc-600">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-      {/* Testimonials Section */}
-      <section className="bg-white py-24 px-6">
-        <div className="container mx-auto max-w-6xl text-center">
-          <h2 className="mb-16 text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl">What Our Clients Say</h2>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <h2 className="mb-16 text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl">Why Choose WebCraft Solutions</h2>
+          <div className="grid gap-8 md:grid-cols-4 text-left">
             {[
-              { name: "Suresh Kumar", text: "Great experience working with WebCraf Solutions. Clean design and smooth communication." },
-              { name: "Priya Sharma", text: "The team delivered exactly what we needed. Our new website has helped us reach more local customers." },
-              { name: "Amit Patel", text: "Professional and reliable. They handled everything from design to launch flawlessly." },
-            ].map((testimonial, i) => (
+              { icon: Layout, title: "Simple & Professional Designs", desc: "We focus on clean aesthetics that make your business stand out professionally." },
+              { icon: TrendingUp, title: "Focused on Business Growth", desc: "Our solutions are built to help you attract more customers and grow your brand." },
+              { icon: MessageCircle, title: "Clear Communication", desc: "We believe in honest and direct communication at every step of the project." },
+              { icon: ShieldCheck, title: "Reliable Support", desc: "You can count on us for long-term support and maintenance of your digital assets." },
+            ].map((item, i) => (
+              <div key={i} className="rounded-xl border border-zinc-200 bg-white p-6 transition-colors hover:border-[#0A4D8C]/30">
+                <item.icon className="mb-4 h-8 w-8 text-[#0A4D8C]" />
+                <h3 className="mb-2 font-semibold text-zinc-900">{item.title}</h3>
+                <p className="text-sm text-zinc-600">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+    {/* Testimonials Section */}
+    <section className="bg-white py-24 px-6">
+      <div className="container mx-auto max-w-6xl text-center">
+        <h2 className="mb-16 text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl">What Our Clients Say</h2>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {[
+            { name: "Suresh Kumar", text: "Great experience working with WebCraft Solutions. Clean design and smooth communication." },
+            { name: "Priya Sharma", text: "The team delivered exactly what we needed. Our new website has helped us reach more local customers." },
+            { name: "Amit Patel", text: "Professional and reliable. They handled everything from design to launch flawlessly." },
+          ].map((testimonial, i) => (
               <div key={i} className="rounded-xl border border-zinc-200 bg-zinc-50 p-8 text-left italic">
                 <p className="mb-6 text-zinc-600">"{testimonial.text}"</p>
                 <p className="text-sm font-semibold not-italic text-zinc-900">— {testimonial.name}</p>

@@ -1,29 +1,29 @@
 import { Monitor } from "lucide-react";
 
 export default function PortfolioPage() {
-  const projects = [
-    {
-      title: "Urban Brew Cafe",
-      description: "A modern café website designed to showcase menu, ambience, and online contact options. Warm colors and food-focused layout.",
-      type: "Website",
-      image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=800",
-      icon: Monitor
-    },
-    {
-      title: "IronFlex Gym",
-      description: "A high-energy gym website highlighting services, memberships, and fitness programs. Bold theme with strong visuals.",
-      type: "Website",
-      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800",
-      icon: Monitor
-    },
-    {
-      title: "NovaTech Solutions",
-      description: "A professional corporate website designed for a growing service-based business. Clean, minimal, corporate look.",
-      type: "Website",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
-      icon: Monitor
-    }
-  ];
+    const projects = [
+      {
+        title: "Cafe Website",
+        description: "A modern café website designed to showcase menu, ambience, and online contact options. Warm colors and food-focused layout.",
+        type: "Demo Project",
+        image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=800",
+        icon: Monitor
+      },
+      {
+        title: "Gym Website",
+        description: "A high-energy gym website highlighting services, memberships, and fitness programs. Bold theme with strong visuals.",
+        type: "Demo Project",
+        image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800",
+        icon: Monitor
+      },
+      {
+        title: "Professional Business Website",
+        description: "A professional corporate website designed for a growing service-based business. Clean, minimal, corporate look.",
+        type: "Demo Project",
+        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
+        icon: Monitor
+      }
+    ];
 
   return (
     <div className="flex flex-col">

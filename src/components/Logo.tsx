@@ -27,7 +27,7 @@ export function Logo({ className = "", showText = true }: LogoProps) {
       </svg>
       {showText && (
         <span className="text-xl font-bold tracking-tight text-[#0A4D8C]">
-          WebCraf <span className="text-[#0A4D8C]">Solutions</span>
+          WebCraft <span className="text-[#0A4D8C]">Solutions</span>
         </span>
       )}
     </div>
