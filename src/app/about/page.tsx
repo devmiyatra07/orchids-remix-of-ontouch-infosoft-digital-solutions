@@ -17,9 +17,9 @@ export default function AboutPage() {
       <section className="bg-zinc-50 py-24 px-6">
         <div className="container mx-auto max-w-3xl space-y-8 text-center">
             <h2 className="text-3xl font-bold text-zinc-900">Our Story</h2>
-            <p className="text-lg leading-relaxed text-zinc-600">
-              WebCraf Solutions helps businesses build a strong digital presence through clean design and practical solutions. We focus on understanding your business goals and creating digital experiences that actually work.
-            </p>
+              <p className="text-lg leading-relaxed text-zinc-600">
+                WebCraft Solutions helps businesses build a strong digital presence through clean design and practical solutions. We focus on understanding your business goals and creating digital experiences that actually work.
+              </p>
             <p className="text-lg leading-relaxed text-zinc-600">
               Our approach is simple: we prioritize clarity, quality, and long-term partnerships. We don't believe in overcomplicating things. Instead, we deliver reliable digital tools that help our clients grow their brands effectively.
             </p>

@@ -31,7 +31,7 @@ export default function Home() {
         {/* Why Choose Us Section */}
         <section className="bg-zinc-50 py-24 px-6">
           <div className="container mx-auto max-w-6xl text-center">
-            <h2 className="mb-16 text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl">Why Choose WebCraf Solutions</h2>
+            <h2 className="mb-16 text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl">Why Choose WebCraft Solutions</h2>
             <div className="grid gap-8 md:grid-cols-4 text-left">
               {[
                 { icon: Layout, title: "Simple & Professional Designs", desc: "We focus on clean aesthetics that make your business stand out professionally." },
@@ -55,7 +55,7 @@ export default function Home() {
           <h2 className="mb-16 text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl">What Our Clients Say</h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { name: "Suresh Kumar", text: "Great experience working with WebCraf Solutions. Clean design and smooth communication." },
+              { name: "Suresh Kumar", text: "Great experience working with WebCraft Solutions. Clean design and smooth communication." },
               { name: "Priya Sharma", text: "The team delivered exactly what we needed. Our new website has helped us reach more local customers." },
               { name: "Amit Patel", text: "Professional and reliable. They handled everything from design to launch flawlessly." },
             ].map((testimonial, i) => (

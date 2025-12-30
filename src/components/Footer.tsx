@@ -48,7 +48,7 @@ import { Logo } from "./Logo";
               </div>
           </div>
           <div className="container mx-auto mt-12 border-t border-zinc-200 pt-8 text-center text-xs px-4">
-            <p>Copyright &copy; 2025 WebCraf Solutions. All rights reserved.</p>
+            <p>Copyright &copy; 2025 WebCraft Solutions. All rights reserved.</p>
           </div>
         </footer>
       );
