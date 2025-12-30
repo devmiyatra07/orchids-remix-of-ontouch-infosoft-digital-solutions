@@ -8,8 +8,8 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "WebCraft Solutions – Professional Digital Services for Small Businesses",
-  description: "WebCraft Solutions provides professional websites and digital solutions to help local businesses grow online.",
+  title: "WebCraf Solutions – Professional Digital Services for Small Businesses",
+  description: "WebCraf Solutions provides professional websites and digital solutions to help local businesses grow online.",
 };
 
 export default function RootLayout({
@@ -35,7 +35,7 @@ export default function RootLayout({
           data-include-search-params="true"
           data-only-in-iframe="true"
           data-debug="true"
-          data-custom-data='{"appName": "WebCraftSolutions", "version": "1.0.0"}'
+          data-custom-data='{"appName": "WebCrafSolutions", "version": "1.0.0"}'
         />
           <Navbar />
           <main className="min-h-screen pt-16">
